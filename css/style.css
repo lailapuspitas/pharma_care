@@ -1,0 +1,504 @@
+/* style.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 10px;
+  position: fixed;
+  border-bottom: #fff;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar-logo p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-logo span {
+  color: #7e68ff;
+  font-style: italic;
+}
+
+.navbar-nav a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.navbar-nav button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #7e68ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* style.css */
+.login_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(img/obat_biru.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+.login_form form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 30px;
+  background-color: #f1f1f1;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
+.login_form form h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.login_form form p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.login_form form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login_form form a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #7e68ff;
+}
+
+.login_form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #7e68ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login_form p.atau {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #000000;
+  text-align: center;
+}
+
+.logo-apk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.logo-box i {
+  margin-right: 5px;
+}
+
+.logo-box span {
+  font-size: 14px;
+}
+
+/* style.css */
+.register_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(img/obat_biru.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+.register_form form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 40px;
+  background-color: #f1f1f1;
+  border-radius: 15px;
+  margin-top: 60px;
+}
+
+.register_form form h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.register_form form label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.register_form form input[type="text"],
+.register_form form input[type="email"],
+.register_form form input[type="password"],
+.register_form form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.register_form form p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.register_form form a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #7e68ff;
+}
+
+.register_form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #7e68ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register_form p.atau {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #000000;
+  text-align: center;
+}
+
+.logo-apk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.logo-box i {
+  margin-right: 5px;
+}
+
+.logo-box span {
+  font-size: 14px;
+}
+
+.register_form .error-msg {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.register_form p.atau {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #000000;
+  text-align: center;
+}
+
+.register_form p.atau:before,
+.register_form p.atau:after {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 1px;
+  background-color: #000000;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+
+.register_form p.atau:before {
+  margin-left: 0;
+}
+
+.register_form p.atau:after {
+  margin-right: 0;
+}
+
+.register_form p.atau span {
+  margin: 0 5px;
+}
+
+.register_form p.atau a {
+  color: #7e68ff;
+}
+
+/* Container page */
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 60px;
+  background-image: url(img/obat_biru.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+.container .content {
+  text-align: center;
+}
+
+.container .content h3 {
+  font-size: 30px;
+  color: #333;
+}
+
+.container .content h3 span {
+  background: #7e68ff;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0 15px;
+}
+
+.container .content h1 {
+  font-size: 50px;
+  color: #333;
+}
+
+.container .content h1 span {
+  color: #7e68ff;
+}
+
+.container .content p {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.container .content a {
+  text-decoration: none;
+}
+
+.container .content .btn {
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 20px;
+  background: #ffffff;
+  color: #7e68ff;
+  margin: 0 5px;
+  text-transform: capitalize;
+  border-radius: 10px;
+}
+
+.container .content .btn:hover {
+  background: #333;
+}
+
+.btn:last-child {
+  margin-right: 0;
+}
+
+/* tambah section */
+.tambah {
+  max-width: 420px;
+  margin: 80px auto;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tambah h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000;
+  font-size: 32px;
+}
+
+.tambah form div {
+  margin-bottom: 15px;
+}
+
+.tambah form label {
+  display: block;
+  font-size: 12;
+  margin-bottom: 6px;
+  color: #000000;
+}
+
+.tambah form input[type="text"],
+.tambah form input[type="date"],
+.tambah form input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+.tambah form button[type="submit"] {
+  background-color: #7e68ff;
+  color: #ffffff;
+  padding: 8px 16px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: center;
+}
+
+.tambah p {
+  text-align: center;
+  margin-top: 20px;
+  color: #999999;
+  font-size: 12px;
+}
+
+/* edit section */
+.edit {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.edit h1 {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.edit form {
+  margin-bottom: 50px;
+}
+
+.edit div {
+  margin-bottom: 20px;
+}
+
+.edit label {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.edit input[type="text"],
+.edit input[type="date"],
+.edit input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.edit button[type="submit"],
+.edit button[name="batal"] {
+  padding: 10px 16px;
+  border: none;
+  background-color: #7e68ff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.edit button[name="batal"] {
+  background-color: #7e68ff;
+  margin-left: 10px;
+}
+
+.edit p {
+  text-align: center;
+  margin-top: 20px;
+  color: #000000;
+  font-size: 12px;
+}
+.edit img {
+  max-width: 200px;
+  margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer p {
+  font-size: 12px;
+  color: #7e68ff;
+}
